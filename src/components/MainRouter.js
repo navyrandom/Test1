@@ -5,7 +5,7 @@ import Counter from './Counter';
 function MainRouter() {
   return (
     <Router>
-      <nav>
+      <nav style={{fontSize: '30px', textAlign:'center'}}>
         <li>
           <Link to='/'>Home</Link>
         </li>
